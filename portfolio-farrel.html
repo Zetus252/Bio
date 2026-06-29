@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farrel Satya Kurniawan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- Network Background -->
+<canvas id="network-canvas"></canvas>
+
+<!-- Nav -->
+<nav>
+  <div class="nav-logo">FSK.</div>
+  <ul class="nav-links">
+    <li><a href="#profile">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="mailto:farrelsk10@gmail.com">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero">
+    <p class="hero-eyebrow">Network &amp; Systems Engineer</p>
+    <h1 class="hero-hello">
+      Hello,<br>my name is
+      <span class="name">Farrel Satya<br>Kurniawan</span>
+    </h1>
+    <p class="hero-sub">Building reliable infrastructure and network solutions — one layer at a time.</p>
+    <div class="hero-divider"></div>
+  </section>
+
+  <!-- PROFILE -->
+  <section id="profile">
+    <p class="section-label">About Me</p>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="section-rule"></div>
+    <div class="profile-grid">
+      <!-- Replace src with your actual photo path -->
+      <div class="profile-img-wrap">
+        <img src="img/farrel.jpg" alt="Farrel Satya Kurniawan" />
+       
+      </div>
+
+      <div class="profile-text">
+        <h3>Farrel Satya Kurniawan</h3>
+        <p class="profile-role">Network &amp; Systems Engineer</p>
+        <p>
+          Saya adalah seorang profesional di bidang jaringan komputer dan administrasi sistem Linux dengan ketertarikan mendalam pada infrastruktur server, otomasi, dan keamanan jaringan. Berpengalaman dalam membangun, mengkonfigurasi, dan memelihara lingkungan server yang andal dan efisien.
+        </p>
+        <p>
+          Dengan penguasaan di sistem berbasis Debian/Ubuntu, konfigurasi perangkat Cisco, serta otomasi menggunakan Ansible, saya terbiasa bekerja pada stack infrastruktur end-to-end — mulai dari lapisan fisik jaringan hingga layanan web dan basis data di atas server.
+        </p>
+        <div class="profile-tags">
+          <span class="profile-tag">Linux Administration</span>
+          <span class="profile-tag">Network Engineering</span>
+          <span class="profile-tag">Server Infrastructure</span>
+          <span class="profile-tag">Automation</span>
+          <span class="profile-tag">Web Development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="inner">
+      <p class="section-label">Technical Skills</p>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="section-rule"></div>
+      <div class="skills-grid">
+
+        <!-- Server -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1e3a8a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/>
+              <line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/>
+            </svg>
+          </div>
+          <span class="skill-name">Server</span>
+        </div>
+
+        <!-- Debian -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="16" stroke="#1e3a8a" stroke-width="1.6"/>
+              <path d="M18 8c-4 0-7 3-7 8 0 3 1.5 5.5 4 7l1-2c-2-1-3-3-3-5 0-3.3 2.2-6 5-6s5 2.7 5 6c0 2-1 4-3 5l1 2c2.5-1.5 4-4 4-7 0-5-3-8-7-8z" fill="#1e3a8a" opacity="0.7"/>
+            </svg>
+          </div>
+          <span class="skill-name">Debian</span>
+        </div>
+
+        <!-- Ubuntu -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="16" stroke="#e95420" stroke-width="1.6"/>
+              <circle cx="18" cy="18" r="6" stroke="#e95420" stroke-width="1.6"/>
+              <circle cx="18" cy="7" r="2.5" fill="#e95420"/>
+              <circle cx="27.5" cy="23" r="2.5" fill="#e95420"/>
+              <circle cx="8.5" cy="23" r="2.5" fill="#e95420"/>
+            </svg>
+          </div>
+          <span class="skill-name">Ubuntu</span>
+        </div>
+
+        <!-- Ansible -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="16" stroke="#1a1a1a" stroke-width="1.6"/>
+              <path d="M14 26 L22 10 L26 26 L20 18 Z" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="skill-name">Ansible</span>
+        </div>
+
+        <!-- Cisco -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 36" fill="none">
+              <rect x="4" y="14" width="4" height="8" rx="1" fill="#1ba0d7"/>
+              <rect x="10" y="10" width="4" height="16" rx="1" fill="#1ba0d7"/>
+              <rect x="16" y="7" width="4" height="22" rx="1" fill="#1ba0d7"/>
+              <rect x="22" y="10" width="4" height="16" rx="1" fill="#1ba0d7"/>
+              <rect x="28" y="14" width="4" height="8" rx="1" fill="#1ba0d7"/>
+            </svg>
+          </div>
+          <span class="skill-name">Cisco</span>
+        </div>
+
+        <!-- Web Server -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1e3a8a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <span class="skill-name">Web Server</span>
+        </div>
+
+        <!-- DB Server -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1e3a8a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"/>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+            </svg>
+          </div>
+          <span class="skill-name">DB Server</span>
+        </div>
+
+        <!-- HTML/CSS/JS -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 36" fill="none">
+              <text x="2" y="26" font-family="monospace" font-size="13" font-weight="700" fill="#e34c26">&lt;/&gt;</text>
+            </svg>
+          </div>
+          <span class="skill-name">HTML / CSS / JS</span>
+        </div>
+
+        <!-- PHP -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 36 22" fill="none">
+              <ellipse cx="18" cy="11" rx="18" ry="11" fill="#8993be" opacity="0.15"/>
+              <text x="4" y="16" font-family="monospace" font-size="14" font-weight="700" fill="#4f5b93">php</text>
+            </svg>
+          </div>
+          <span class="skill-name">PHP</span>
+        </div>
+
+        <!-- Bash -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="4 17 10 11 4 5"/>
+              <line x1="12" y1="19" x2="20" y2="19"/>
+            </svg>
+          </div>
+          <span class="skill-name">Bash</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <!-- <section id="certificates">
+    <p class="section-label">Credentials</p>
+    <h2 class="section-title">Certificates</h2>
+    <div class="section-rule"></div>
+    <div class="cert-grid">
+
+      <div class="cert-slot">
+        <span class="cert-number">01</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">02</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">03</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">04</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">05</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">06</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+      <div class="cert-slot">
+        <span class="cert-number">07</span>
+        <div class="cert-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#c8c8c8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Certificate</span>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-icons">
+
+    <!-- GitHub — ganti username -->
+    <a href="https://github.com/Zetus252" target="_blank" rel="noopener" class="footer-icon" title="GitHub">
+      <svg viewBox="0 0 24 24">
+        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+      </svg>
+    </a>
+
+    <!-- LinkedIn — ganti username -->
+    <a href="https://www.linkedin.com/in/farrel-satya-kurniawan-b95ab5279" target="_blank" rel="noopener" class="footer-icon" title="LinkedIn">
+      <svg viewBox="0 0 24 24">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+        <rect x="2" y="9" width="4" height="12"/>
+        <circle cx="4" cy="4" r="2"/>
+      </svg>
+    </a>
+
+    <!-- Mail — ganti email -->
+    <a href="mailto:farrelsk10@gmail.com" class="footer-icon" title="Email">
+      <svg viewBox="0 0 24 24">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+    </a>
+
+  </div>
+  <p class="footer-copy">© 2026 Farrel Satya Kurniawan. All rights reserved.</p>
+</footer>
+
+<!-- NETWORK ANIMATION -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
